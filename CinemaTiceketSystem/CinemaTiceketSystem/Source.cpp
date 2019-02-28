@@ -1,7 +1,11 @@
 #include<iostream>
-
+#include "Ticket.h"
 using namespace std;
 
-int main() {
-	cout << "**********Cinema Ticket System**********";
+int main() 
+{
+	Ticket tic;
+	
+	cout << "**********Cinema Ticket System**********\n";
+	cout << tic.getNum();
 }
