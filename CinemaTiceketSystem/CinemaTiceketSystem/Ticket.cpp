@@ -4,7 +4,7 @@
 
 Ticket::Ticket()
 {
-	num = 1;
+	num = 20;
 }
 
 int Ticket::getNum()
